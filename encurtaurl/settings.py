@@ -62,9 +62,9 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'encurtaurl.urls'
 ROOT_HOSTCONF = 'encurtaurl.hosts'
-#DEFAULT_HOST = 'www'
-DEFAULT_REDIRECT_URL = 'https://encurtaurl-alisonamerico.herokuapp.com'
-#PARENT_HOST = 'encurtaurl.com'
+DEFAULT_HOST = 'www'
+DEFAULT_REDIRECT_URL = 'http://www.encurtaurl.com:8000'
+PARENT_HOST = 'encurtaurl.com:8000'
 
 TEMPLATES = [
     {
