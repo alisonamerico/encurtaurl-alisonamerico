@@ -28,7 +28,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['www.encurtaurl.com', 'encurtaurl.com']
+ALLOWED_HOSTS = ['www.encurtaurl.com', 'encurtaurl.com', 'encurtaurl-alisonamerico.herokuapp.com']
 
 
 # Application definition
@@ -63,8 +63,8 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'encurtaurl.urls'
 ROOT_HOSTCONF = 'encurtaurl.hosts'
 DEFAULT_HOST = 'www'
-DEFAULT_REDIRECT_URL = 'http://www.encurtaurl.com:8000'
-PARENT_HOST = 'encurtaurl.com:8000'
+DEFAULT_REDIRECT_URL = 'http://www.encurtaurl.com'
+PARENT_HOST = 'encurtaurl.com'
 
 TEMPLATES = [
     {
