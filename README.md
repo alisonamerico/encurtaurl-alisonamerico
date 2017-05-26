@@ -2,9 +2,10 @@
 Projeto feito em Django para encurtar URL's
 
 Instalação:
+
 1 - Clonar o repositório:
 
-$ https://github.com/alisonamerico/encurtaurl-alisonamerico.git
+$ git clone https://github.com/alisonamerico/encurtaurl-alisonamerico.git
 
 2 - Acessar pasta:
 
