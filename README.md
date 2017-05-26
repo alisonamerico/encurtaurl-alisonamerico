@@ -30,10 +30,25 @@ $ cd ..
 
 $ pip install -r requirements.txt
 
-8 - Executar projeto:
+8 - É necessário criar um arquivo chamado ".env" na raíz no do projeto:
+
+  --> Botão direito em cima de da raíz do projeto "encurtaurl-alisonamerico"
+  --> New File
+  --> .env
+  --> Gerar uma SECRET_KEY: http://www.miniwebtool.com/django-secret-key-generator/
+  --> Click em "Generate Django Secret Key"
+  --> Coloque dentro do arquivo ".env" as variáveis:
+        SECRET_KEY=coloque_aqui_o_valor_da_secret_key_gerada_anteriormente_sem_espaço
+        DEBUG=True
+
+9 - Realizar as migrações das tabelas:
+
+$ python manage.py migrate
+
+10 - Executar projeto:
 
 $ ./manage.py runserver
 
-9 - Informe uma URL qualquer para teste:
+11 - Informe uma URL qualquer para teste:
 
 https://facebook.com
