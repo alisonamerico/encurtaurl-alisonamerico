@@ -15,18 +15,25 @@ $ cd encurtaurl-alisonamerico
 
 $ virtualenv encurtaurl-alisonamerico -p python3
 
-4 - Ativar o ambiente virtualenv:
+4 - Acessar subpasta:
+
+$ cd encurtaurl-alisonamerico
+
+5 - Ativar o ambiente virtualenv:
 
 $ source bin/activate
 
-5 - Instalar dependencias do projeto:
+6 - Voltar pasta:
+$ cd ..
+
+7 - Instalar dependencias do projeto:
 
 $ pip install -r requirements.txt
 
-6 - Executar projeto:
+8 - Executar projeto:
 
 $ ./manage.py runserver
 
-7 - Informe uma URL qualquer para teste:
+9 - Informe uma URL qualquer para teste:
 
 https://facebook.com

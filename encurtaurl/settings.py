@@ -28,7 +28,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['www.encurtaurl.com', 'encurtaurl.com', 'encurtaurl-alisonamerico.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'www.encurtaurl.com', 'encurtaurl.com']
 
 
 # Application definition
